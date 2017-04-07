@@ -29,6 +29,3 @@ dat <- airquality %>%
   mutate(windcategory = round((Wind+3)/5, 0)) %>% 
   group_by(windcategory) %>% 
   summarise(avgWindMph = round(mean(Wind),2), N = n(), dataQuality = calDataQuality(N, Ozone))
-
-
-
