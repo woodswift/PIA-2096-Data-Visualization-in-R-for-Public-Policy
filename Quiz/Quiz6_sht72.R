@@ -1,3 +1,4 @@
+### Shuning Tong is the author of this script
 rm(list = ls())
 airquality <- airquality
 
